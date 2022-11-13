@@ -2,7 +2,7 @@
   "name": "wilfire-project-ui",
   "version": "0.0.1",
   "scripts": {
-    "serve": "vue-cli-service serve --port 8081",
+    "serve": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service serve --port 8081 --openssl-legacy-provider start",
     "build": "vue-cli-service build",
     "test": "start-server-and-test serve http://127.0.0.1:8081/ cypress",
     "cypress": "cypress open"
