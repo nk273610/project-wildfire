@@ -1,10 +1,10 @@
 # wildfire-project-telus
 
 ## Project setup
-Install Dokcer on your machine and run the below command when docker is started.
+Install Docker on your machine and run the below command, when docker is started.
 
 ```sh
-cd project_wildfire_detection
+cd project_wildfire
 docker-compose up -d
 ```
 
