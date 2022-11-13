@@ -6,7 +6,7 @@
     "scripts": {
         "dev": "nodemon app.js",
         "start": "node app.js",
-        "test": "nyc _mocha --timeout 10000 --exit --report lcovonly -- -R spec"
+        "test": "nyc mocha"
     },
     "author": "Nikhil Dhirmalani",
     "license": "Telus",
