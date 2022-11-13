@@ -81,7 +81,7 @@ export default Vue.extend({
   data(){
   return {
     month: 'Jan',
-    year: 2022,
+    year: moment().year(),
     total_months: moment.monthsShort(),
     wildfireData: [],
   }
